@@ -2,20 +2,26 @@ Contiene archivos de Autorrespuesta para:
 - Windows 10 20H2
 - Windows 10 2004
 
-Disco entero:
-** Borra todo el disco **
-crea particion de boot
-crea particion EFI
-crea particion de Windows.
-- Los demas detalles del archivo en la descripcion del folder.
-
-Disco particionado:
-** Borra todo el disco **
-crea particion de boot
-crea particion EFI
-crea particion de Windows
-crea particion D:\
-- Los demas detalles del archivo en la descripcion del folder.
-
 Avanzado:
-Ademas de particionamiento, tiene respuestas avanzadas.
+Contiene respuesta para fase 1, incluido particionamiento simple.
+Contiene respuesta para fase 7, crea usuario "Windows10" con contraseña (Password-1).
+Tiene respuestas avanzadas para la fase 7.
+
+Completo:
+Contiene respuesta para fase 1 y para fase 7
+Crea usuario "Windows10" con contraseña (Password-1).
+NO tiene respuestas avanzadas.
+
+Fase 1:
+Contiene respuestas para fase 1 unicamente.
+Limpia disco y particionamiento simple
+
+Fase 7:
+Contiene respuestas para fase 7 unicamente.
+crea usuario "Windows10" con contraseña (Password-1).
+
+OEM:
+Contiene respuesta para fase 1 y para fase 7
+Crea usuario "Windows10" con contraseña (Password-1).
+NO tiene respuestas avanzadas.
+Tiene respuestas adicionales para ensambladores de computadoras
