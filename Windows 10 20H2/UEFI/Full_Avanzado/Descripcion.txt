@@ -1,9 +1,0 @@
-Este archivo de autorrespuesta:
-- Para Windows 10 Pro
-- Teclado: Español Latinoamerica
-- Pais: Colombia
-- KMS Client Setup Keys: Windows 10, version 1803
-
-Particiona automáticamente el disco duro así:
-Partición 1: 250 MB para archivos de arranque.
-Partición 2: El disco sin mas particiones.
