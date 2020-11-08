@@ -3,12 +3,14 @@ Contiene archivos de Autorrespuesta para:
 - Windows 10 2004
 
 Avanzado:
-Contiene respuesta para fase 1, incluido particionamiento simple.
-Contiene respuesta para fase 7, crea usuario "Windows10" con contraseña (Password-1).
+Contiene respuestas para fase 1 y para fase 7
+Particionamiento doble (C:\ y D:\).
+Crea usuario "Windows10" con contraseña (Password-1).
 Tiene respuestas avanzadas para la fase 7.
 
 Completo:
 Contiene respuesta para fase 1 y para fase 7
+Particionamiento simple.
 Crea usuario "Windows10" con contraseña (Password-1).
 NO tiene respuestas avanzadas.
 
