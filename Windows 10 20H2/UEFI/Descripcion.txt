@@ -1,0 +1,5 @@
+Contiene archivos de Autorrespuesta para:
+- Windows 10 20H2
+- Windows 10 2004
+
+Cuando la computadora tiene UEFI y opciones de seguridad activada (secure boot)
