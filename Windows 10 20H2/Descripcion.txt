@@ -2,4 +2,4 @@ Contiene archivos de Autorrespuesta para:
 - Windows 10 20H2
 - Windows 10 2004
 
-En equipos con UEFI
+En equipos con UEFI y secure boot activo.
