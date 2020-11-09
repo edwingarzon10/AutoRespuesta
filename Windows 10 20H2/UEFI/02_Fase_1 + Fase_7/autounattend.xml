@@ -112,26 +112,6 @@
             <RegisteredOrganization></RegisteredOrganization>
             <RegisteredOwner>Global Research CO</RegisteredOwner>
             <DisableAutoDaylightTimeSet>false</DisableAutoDaylightTimeSet>
-            <FirstLogonCommands>
-                <SynchronousCommand wcm:action="add">
-                    <Description>Control Panel View</Description>
-                    <Order>1</Order>
-                    <CommandLine>reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel" /v StartupPage /t REG_DWORD /d 1 /f</CommandLine>
-                    <RequiresUserInput>true</RequiresUserInput>
-                </SynchronousCommand>
-                <SynchronousCommand wcm:action="add">
-                    <Order>2</Order>
-                    <Description>Control Panel Icon Size</Description>
-                    <RequiresUserInput>false</RequiresUserInput>
-                    <CommandLine>reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel" /v AllItemsIconView /t REG_DWORD /d 0 /f</CommandLine>
-                </SynchronousCommand>
-                <SynchronousCommand wcm:action="add">
-                    <Order>3</Order>
-                    <RequiresUserInput>false</RequiresUserInput>
-                    <CommandLine>cmd /C wmic useraccount where name=&quot;OEM&quot; set PasswordExpires=false</CommandLine>
-                    <Description>Password Never Expires</Description>
-                </SynchronousCommand>
-            </FirstLogonCommands>
             <TimeZone>SA Pacific Standard Time</TimeZone>
             <BluetoothTaskbarIconEnabled>false</BluetoothTaskbarIconEnabled>
             <ShowPowerButtonOnStartScreen>true</ShowPowerButtonOnStartScreen>
@@ -141,28 +121,6 @@
             <UILanguage>es-CO</UILanguage>
             <InputLocale>es-LA</InputLocale>
             <UserLocale>es-CO</UserLocale>
-        </component>
-    </settings>
-    <settings pass="specialize">
-        <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <OEMInformation>
-                <Manufacturer>Edwin.Garzon</Manufacturer>
-                <Model>IronMan 02</Model>
-                <SupportHours>8 AM a 5 PM</SupportHours>
-                <SupportPhone>3144642386</SupportPhone>
-                <SupportURL>www.facebook.com/edwingarzon10</SupportURL>
-            </OEMInformation>
-        </component>
-        <component name="Microsoft-Windows-IE-InternetExplorer" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-            <StartPages>
-                <StartPage wcm:action="add">
-                    <StartPageUrl>https://duckduckgo.com/</StartPageUrl>
-                    <StartPageKey>01</StartPageKey>
-                </StartPage>
-            </StartPages>
-            <BlockPopups>yes</BlockPopups>
-            <Home_Page>https://duckduckgo.com/</Home_Page>
-            <DisableFirstRunWizard>true</DisableFirstRunWizard>
         </component>
     </settings>
     <cpi:offlineImage cpi:source="wim:c:/temp/sources/install.wim#Windows 10 Pro" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
