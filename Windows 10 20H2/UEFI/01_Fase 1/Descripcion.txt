@@ -1,0 +1,17 @@
+Este archivo de autorrespuesta:
+- Para Windows 10 Pro
+- Teclado: Español Latinoamerica
+- Pais: Colombia
+- KMS Client Setup Keys: Windows 10, version 1803
+
+Borra todo el disco
+Particiona automáticamente el disco duro.
+Partición 1: para archivos de arranque.
+Particion 2: para EFI.
+Partición 3: para Windows 10.
+
+
+En la clave"UserData" se debe cambiar el nombre de la organizacion.
+
+Crea usuario local llamado "OEM"
+Contraseña: "Password-1
