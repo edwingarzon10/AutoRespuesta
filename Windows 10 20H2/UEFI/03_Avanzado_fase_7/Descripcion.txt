@@ -5,10 +5,10 @@ Este archivo de autorrespuesta:
 - KMS Client Setup Keys: Windows 10, version 1803
 - Zona horaria: SA Pacific Standard Time
 - Oculta el EULA
-- Oculta la pantalla para la creacion de usuarios locales
-- Oculta la pantalla para la creacion de usuarios OnLine
-- Oculta la pantalla para configuracion de red inalambrica
-- Oculta la pantalla para el registro OEM
+- Oculta la pantalla para la creacion de usuarios locales.
+- Oculta la pantalla para la creacion de usuarios OnLine.
+- Oculta la pantalla para configuracion de red inalambrica.
+- Oculta la pantalla para el registro OEM.
 
 Borra todo el disco
 Particiona automáticamente el disco duro.
