@@ -3,7 +3,22 @@ Este archivo de autorrespuesta:
 - Teclado: Español Latinoamerica
 - Pais: Colombia
 - KMS Client Setup Keys: Windows 10, version 1803
+- Zona horaria: SA Pacific Standard Time
+- Oculta el EULA
+- Oculta la pantalla para la creacion de usuarios locales
+- Oculta la pantalla para la creacion de usuarios OnLine
+- Oculta la pantalla para configuracion de red inalambrica
+- Oculta la pantalla para el registro OEM
 
-Particiona automáticamente el disco duro así:
-Partición 1: 250 MB para archivos de arranque.
-Partición 2: El disco sin mas particiones.
+Borra todo el disco
+Particiona automáticamente el disco duro.
+Partición 1: para archivos de arranque.
+Particion 2: para EFI.
+Partición 3: para Windows 10.
+
+
+En la clave"UserData" se debe cambiar el nombre de la organizacion.
+En la clave"Shell-Setup_neutral" se debe cambiar el nombre de la organizacion.
+
+Crea usuario local llamado "OEM"
+Contraseña: "Password-1
