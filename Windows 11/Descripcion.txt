@@ -1,0 +1,4 @@
+Contiene archivos de Autorrespuesta para:
+- Windows 11
+
+En equipos con UEFI y secure boot activo.
